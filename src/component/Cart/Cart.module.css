@@ -1,0 +1,18 @@
+.cart{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    color: white;
+    background-color: brown;
+}
+.cartItem{
+    display: flex;
+    font-size: 1.2rem;
+    align-items: center;
+    gap: 3rem;
+}
+.cart .total{
+    font-size: 2rem;
+}
